@@ -1,0 +1,29 @@
+allprojects{
+    group = 'hu.elte.calculator'
+    version = '0.0.1-SNAPSHOT'
+}
+
+subprojects {
+    apply plugin: 'java'
+    apply plugin: 'jacoco'
+    apply plugin: 'checkstyle'
+
+    repositories {
+        jcenter();
+    }
+    test {
+        useJUnitPlatform()
+        finalizedBy jacocoTestReport
+    }
+
+    jacocoTestReport {
+        dependsOn test
+    }
+
+    sourceCompatibility = '11'
+
+    dependencies {
+        testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.2'
+        testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+    }
+}

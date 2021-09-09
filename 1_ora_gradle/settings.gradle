@@ -1,0 +1,4 @@
+rootProject.name = '1_ora_gradle'
+
+include(':calculator-lib')
+include(':calculator-app')

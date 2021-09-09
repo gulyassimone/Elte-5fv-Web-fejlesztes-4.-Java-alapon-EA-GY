@@ -1,0 +1,7 @@
+-classpath 'C:\\Users\\gulya\\OneDrive\\Dokumentumok\\Elte-5fv-Web-fejlesztes-4.-Java-alapon-EA-GY\\1_ora_gradle\\calculator-app\\build\\classes\\java\\main;C:\\Users\\gulya\\OneDrive\\Dokumentumok\\Elte-5fv-Web-fejlesztes-4.-Java-alapon-EA-GY\\1_ora_gradle\\calculator-app\\build\\resources\\main;C:\\Users\\gulya\\OneDrive\\Dokumentumok\\Elte-5fv-Web-fejlesztes-4.-Java-alapon-EA-GY\\1_ora_gradle\\calculator-lib\\build\\libs\\calculator-lib-0.0.1-SNAPSHOT.jar'
+-d 'C:\\Users\\gulya\\OneDrive\\Dokumentumok\\Elte-5fv-Web-fejlesztes-4.-Java-alapon-EA-GY\\1_ora_gradle\\calculator-app\\build\\docs\\javadoc'
+-doctitle 'calculator-app 0.0.1-SNAPSHOT API'
+-notimestamp 
+-quiet 
+-windowtitle 'calculator-app 0.0.1-SNAPSHOT API'
+'C:\\Users\\gulya\\OneDrive\\Dokumentumok\\Elte-5fv-Web-fejlesztes-4.-Java-alapon-EA-GY\\1_ora_gradle\\calculator-app\\src\\main\\java\\calc\\CalcMain.java'
