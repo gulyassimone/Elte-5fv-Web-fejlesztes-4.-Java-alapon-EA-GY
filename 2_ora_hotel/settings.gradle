@@ -1,1 +1,4 @@
 rootProject.name = '2_ora_hotel'
+
+include 'hotel-domain'
+include 'hotel-application'

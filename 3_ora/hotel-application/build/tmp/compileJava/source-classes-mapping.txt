@@ -1,0 +1,12 @@
+com/training/hotel/HotelApplication.java
+ com.training.hotel.HotelApplication
+com/training/hotel/application/view/HotelView.java
+ com.training.hotel.application.view.HotelView
+com/training/hotel/application/service/HotelService.java
+ com.training.hotel.application.service.HotelService
+com/training/hotel/application/configuration/HotelConfiguration.java
+ com.training.hotel.application.configuration.HotelConfiguration
+com/training/hotel/application/service/TestdataGenerator.java
+ com.training.hotel.application.service.TestdataGenerator
+com/training/hotel/application/view/AdvancedHotelView.java
+ com.training.hotel.application.view.AdvancedHotelView
