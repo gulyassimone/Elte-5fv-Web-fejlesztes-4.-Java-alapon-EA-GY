@@ -1,0 +1,94 @@
+
+<!-- Sidebar -->
+<ul th:fragment="side_nav_bar" class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+    <!-- Sidebar - Brand -->
+    <a class="sidebar-brand d-flex align-items-center justify-content-center" th:href="@{/}">
+        <div class="sidebar-brand-icon rotate-n-15">
+            <i class="fas fa-laugh-wink"></i>
+        </div>
+        <div class="sidebar-brand-text mx-3">MMBSZ Bank</div>
+    </a>
+
+    <!-- Divider -->
+    <hr class="sidebar-divider my-0">
+
+    <!-- Nav Item - Dashboard -->
+    <li class="nav-item active">
+        <a class="nav-link" th:href="@{/}">
+            <i class="fas fa-home"></i>
+            <span>Home</span></a>
+    </li>
+
+    <!-- Divider -->
+    <hr class="sidebar-divider">
+
+    <!-- Heading -->
+    <div class="sidebar-heading">
+        Enquiries
+    </div>
+
+    <li class="nav-item">
+        <a class="nav-link" th:href="@{/personal_account}">
+            <i class="fas fa-credit-card"></i>
+            <span>Personal Account</span></a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" th:href="@{/saving_account}">
+            <i class="fas fa-piggy-bank"></i>
+            <span>Saving Account</span></a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" th:href="@{/account_history}">
+            <i class="fas fa-history"></i></i>
+            <span>Account History</span></a>
+    </li>
+
+
+
+    <!-- Divider -->
+    <hr class="sidebar-divider">
+
+    <!-- Heading -->
+    <div class="sidebar-heading">
+        Transfers
+    </div>
+
+
+    <li class="nav-item">
+        <a class="nav-link" th:href="@{/transfer}">
+            <i class="fas fa-money-bill"></i>
+            <span>Transfer</span></a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" th:href="@{/regular_transaction}">
+            <i class="fas fa-redo-alt"></i>
+            <span>Regular Transaction</span></a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" th:href="@{/direct_debit}">
+            <i class="fas fa-handshake"></i>
+            <span>Direct debit</span></a>
+    </li>
+
+    <!-- Divider -->
+    <hr class="sidebar-divider d-none d-md-block">
+
+    <!-- Sidebar Toggler (Sidebar) -->
+    <div class="text-center d-none d-md-inline">
+        <button class="rounded-circle border-0" id="sidebarToggle"></button>
+    </div>
+
+    <!-- Sidebar Message -->
+    <div class="sidebar-card d-none d-lg-flex">
+        <img class="sidebar-card-illustration mb-2" src="" alt="">
+        <p class="text-center mb-2"><strong>vmi hirdetés?</strong></p>
+        <a class="btn btn-success btn-sm" href="">ugrás</a>
+    </div>
+
+</ul>
+<!-- End of Sidebar -->

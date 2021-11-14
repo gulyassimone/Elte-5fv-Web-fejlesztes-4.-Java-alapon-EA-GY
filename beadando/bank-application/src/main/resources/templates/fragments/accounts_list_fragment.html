@@ -1,0 +1,7 @@
+<div th:fragment="accounts">
+    <select class="btn btn-outline-secondary transaction col-md-2" >
+    <option th:each="accountView: ${accountViews}"
+            th:text="${accountView.getAccountNumber}">
+    </option>
+    </select>
+</div>
